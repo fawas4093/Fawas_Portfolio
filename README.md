@@ -35,25 +35,6 @@ Or view the live site:
 🌐 [fawaz-shemeer-portfolio.vercel.app](https://fawaz-shemeer-portfolio.vercel.app/)
 
 
-## Screenshots
-
-![App Screenshot](/public/screenshot/s1.png)
-
-![App Screenshot](/public/screenshot/s2.png)
-
-![App Screenshot](/public/screenshot/s3.png)
-
-![App Screenshot](/public/screenshot/s4.png)
-
-![App Screenshot](/public/screenshot/s5.png)
-
-![App Screenshot](/public/screenshot/s6.png)
-
-![App Screenshot](/public/screenshot/s7.png)
-
-![App Screenshot](/public/screenshot/s8.png)
-
-
 
 
 ## 🛠 Installation & Setup
