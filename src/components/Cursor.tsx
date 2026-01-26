@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useRef, RefObject } from "react";
+import { useEffect, useState, useRef, RefObject, useCallback } from "react";
 import {
   motion,
   useMotionValue,
@@ -41,7 +41,7 @@ const Cursor: React.FC<CursorProps> = ({ stickyElementRef }) => {
     }
   };
 
-  const manageMouseMove = (e: MouseEvent) => {
+  const manageMouseMove = useCallback((e: MouseEvent) => {
     const { clientX, clientY } = e;
 
     if (!stickyElementRef.current) return;
@@ -68,13 +68,13 @@ const Cursor: React.FC<CursorProps> = ({ stickyElementRef }) => {
       mouse.x.set(clientX - cursorSize / 2);
       mouse.y.set(clientY - cursorSize / 2);
     }
-  };
+  }, [isHovered, cursorSize, stickyElementRef]);
 
-  const manageMouseOver = () => {
+  const manageMouseOver = useCallback(() => {
     setIsHovered(true);
-  };
+  }, []);
 
-  const manageMouseLeave = () => {
+  const manageMouseLeave = useCallback(() => {
     setIsHovered(false);
     if (cursor.current) {
       animate(
@@ -83,7 +83,7 @@ const Cursor: React.FC<CursorProps> = ({ stickyElementRef }) => {
         { duration: 0.1, type: "spring" }
       );
     }
-  };
+  }, []);
 
   useEffect(() => {
     const stickyElement = stickyElementRef.current;
@@ -98,7 +98,7 @@ const Cursor: React.FC<CursorProps> = ({ stickyElementRef }) => {
       stickyElement.removeEventListener("mouseleave", manageMouseLeave);
       window.removeEventListener("mousemove", manageMouseMove);
     };
-  }, [isHovered, stickyElementRef]);
+  }, [stickyElementRef, manageMouseMove, manageMouseOver, manageMouseLeave]);
 
   const template = ({
     rotate,
