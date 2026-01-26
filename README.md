@@ -1,7 +1,7 @@
 
-# Peyush Nuwal - Portfolio Website
+# Fawaz Shemeer - Portfolio Website
 
-🌐 [Live Site](https://peyush-nuwal-portfolio.vercel.app/)
+🌐 [Live Site](https://fawaz-shemeer-portfolio.vercel.app/)
 
 A modern, interactive frontend portfolio built using Next.js, TypeScript, GSAP, Framer Motion, and TailwindCSS. Designed to showcase my skills, featured projects, and personal branding as a frontend developer.
 
@@ -32,7 +32,7 @@ A modern, interactive frontend portfolio built using Next.js, TypeScript, GSAP, 
 [Watch on YouTube](https://www.youtube.com/watch?v=your-video-id)
 
 Or view the live site:  
-🌐 [peyush-nuwal-portfolio.vercel.app](https://peyush-nuwal-portfolio.vercel.app/)
+🌐 [fawaz-shemeer-portfolio.vercel.app](https://fawaz-shemeer-portfolio.vercel.app/)
 
 
 ## Screenshots
@@ -62,7 +62,7 @@ To run this portfolio locally, follow these steps:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/peyush-nuwal/portfolio.git
+git clone https://github.com/fawaz-shemeer/portfolio.git
 cd portfolio
 ```
 
@@ -84,6 +84,6 @@ http://localhost:3000
 
 ## 📬 Contact
 
-- LinkedIn: [linkedin.com/in/peyush-nuwal](https://linkedin.com/in/peyush-nuwal)
-- Email: piyushnawal19@gmail.com
+- LinkedIn: [linkedin.com/in/fawas-a-shemeer](https://linkedin.com/in/fawas-a-shemeer)
+- Email: fawaznawal19@gmail.com
 
