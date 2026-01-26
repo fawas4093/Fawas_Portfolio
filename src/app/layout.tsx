@@ -14,23 +14,23 @@ const raleway = Raleway({
 
 // app/page.tsx or app/layout.tsx
 export const metadata: Metadata = {
-  metadataBase: new URL("https://peyush-nuwal-portfolio.vercel.app"),
-  title: "Peyush Nuwal | Full Stack Developer & Tech Explorer",
+  metadataBase: new URL("https://fawaz-shemeer-portfolio.vercel.app"),
+  title: "Fawaz Shemeer | Full Stack Developer & Tech Explorer",
   description:
-    "Crafting sleek UIs and powerful backends — I'm Peyush Nuwal, a full stack developer with a passion for building modern web experiences using React, Node.js, TypeScript, and more.",
+    "Crafting sleek UIs and powerful backends — I'm Fawaz Shemeer, a full stack developer with a passion for building modern web experiences using React, Node.js, TypeScript, and more.",
   keywords: [
     // Personal Branding
-    "Peyush Nuwal",
-    "Peyush Nuwal Portfolio",
-    "Peyush Nuwal Developer",
-    "Peyush Nuwal Website",
-    "Peyush Nuwal Full Stack Developer",
-    "Peyush Nuwal Projects",
-    "Peyush Nuwal Personal Website",
-    "Peyush Nuwal Software Engineer",
-    "Peyush Nuwal Web Developer",
-    "Peyush Nuwal React Developer",
-    "Peyush Nuwal Node.js Developer",
+    "Fawaz Shemeer",
+    "Fawaz Shemeer Portfolio",
+    "Fawaz Shemeer Developer",
+    "Fawaz Shemeer Website",
+    "Fawaz Shemeer Full Stack Developer",
+    "Fawaz Shemeer Projects",
+    "Fawaz Shemeer Personal Website",
+    "Fawaz Shemeer Software Engineer",
+    "Fawaz Shemeer Web Developer",
+    "Fawaz Shemeer React Developer",
+    "Fawaz Shemeer Node.js Developer",
 
     // General Role & Skills
     "Full Stack Developer",
@@ -173,36 +173,36 @@ export const metadata: Metadata = {
 
   authors: [
     {
-      name: "Peyush Nuwal",
-      url: "https://peyush-nuwal-portfolio.vercel.app",
+      name: "Fawaz Shemeer",
+      url: "https://fawaz-shemeer-portfolio.vercel.app",
     },
   ],
-  creator: "Peyush Nuwal",
-  publisher: "Peyush Nuwal",
+  creator: "Fawaz Shemeer",
+  publisher: "Fawaz Shemeer",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Peyush Nuwal — Full Stack Web Developer & Tech Explorer",
+    title: "Fawaz Shemeer — Full Stack Web Developer & Tech Explorer",
     description:
-      "Explore the developer portfolio of Peyush Nuwal. Discover innovative projects, technical insights, and modern web solutions built with React, Node.js, TypeScript, and cutting-edge technologies.",
-    url: "https://peyush-nuwal-portfolio.vercel.app",
-    siteName: "Peyush Nuwal Portfolio",
+      "Explore the developer portfolio of Fawaz Shemeer. Discover innovative projects, technical insights, and modern web solutions built with React, Node.js, TypeScript, and cutting-edge technologies.",
+    url: "https://fawaz-shemeer-portfolio.vercel.app",
+    siteName: "Fawaz Shemeer Portfolio",
     images: [
       {
         url: "/favicon.png",
         width: 1200,
         height: 630,
-        alt: "Peyush Nuwal - Full Stack Developer Portfolio",
+        alt: "Fawaz Shemeer - Full Stack Developer Portfolio",
         type: "image/png",
       },
       {
         url: "/favicon.png", // Add a square version for better social sharing
         width: 600,
         height: 600,
-        alt: "Peyush Nuwal - Developer Portfolio",
+        alt: "Fawaz Shemeer - Developer Portfolio",
         type: "image/png",
       },
     ],
@@ -211,11 +211,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Peyush Nuwal | Full Stack Developer & Tech Explorer",
+    title: "Fawaz Shemeer | Full Stack Developer & Tech Explorer",
     description:
       "Passionate full-stack developer crafting modern web experiences. Explore my projects, technical insights, and journey in React, Node.js, TypeScript, and beyond.",
-    site: "@Nuwal_Peyush",
-    creator: "@Nuwal_Peyush",
+    site: "@Shemeer_Fawaz",
+    creator: "@Shemeer_Fawaz",
     images: ["/favicon.png"],
   },
   category: "technology",
@@ -234,15 +234,15 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://peyush-nuwal-portfolio.vercel.app",
+    canonical: "https://fawaz-shemeer-portfolio.vercel.app",
   },
   other: {
     "theme-color": "#b7ab98", // Add your brand color
     "color-scheme": "dark light",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
-    "apple-mobile-web-app-title": "Peyush Nuwal",
-    "application-name": "Peyush Nuwal Portfolio",
+    "apple-mobile-web-app-title": "Fawaz Shemeer",
+    "application-name": "Fawaz Shemeer Portfolio",
     "msapplication-TileColor": "#000000",
     "msapplication-config": "/browserconfig.xml",
     classification: "Personal Portfolio",

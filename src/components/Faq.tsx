@@ -156,7 +156,7 @@ const Faq = () => {
                   <FaArrowRight />
                 </span>
               }
-              link={"https://www.linkedin.com/in/peyush-nuwal/"}
+              link={"https://www.linkedin.com/in/fawas-a-shemeer/"}
               type={"transparent"}
               titleStyle=" w-fit mt-0 lg:mt-4 text-base lg:text-xl "
             />

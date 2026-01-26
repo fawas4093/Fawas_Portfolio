@@ -69,14 +69,19 @@ const QuickLinks: React.FC<QuickLinkProps> = ({
 
   if (type === "url" && link) {
     const isExternal = link.startsWith("http");
+    const isMailto = link.startsWith("mailto:");
     return isExternal ? (
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <a href={link} target="_blank" rel="noopener noreferrer" aria-label={name}>
+        {content}
+      </a>
+    ) : isMailto ? (
+      <a href={link} aria-label={`Send email to ${name}`}>
         {content}
       </a>
     ) : (
-     <a href={link}>
-      {content}
-     </a>
+      <a href={link} aria-label={name}>
+        {content}
+      </a>
     );
   }
 

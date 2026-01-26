@@ -137,7 +137,7 @@ const Hero = () => {
           ref={firstNameRef}
           className="w-full text-accent text-center lg:text-start text-[5.8rem]  md:text-[8rem] lg:text-[15rem] -tracking-[0.5rem]  font-[900] lg:font-[800] "
         >
-          {"PEYUSH".split("").map((letter, index) => (
+          {"HEY I'M".split("").map((letter, index) => (
             <span
               key={index}
               className={`relative ${
@@ -154,7 +154,7 @@ const Hero = () => {
           ref={lastNameRef}
           className="w-full text-accent text-center lg:text-end   text-[5.8rem]  md:text-[8rem] lg:text-[15rem] -tracking-[0.5rem]  font-[900] lg:font-[800] "
         >
-          {"NUWAL".split("").map((letter, index) => (
+          {"FAWAZ".split("").map((letter, index) => (
             <span
               key={index}
               className={`relative ${
@@ -172,7 +172,7 @@ const Hero = () => {
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-9 md:mt-10  w-[90%] md:w-[40%]   p-[2px] bg-text -rotate-[7deg] lg:-rotate-[8deg]"
       >
         <Image
-          src="/pfp.jpg"
+          src="/pfp.png"
           alt=""
           width={300}
           height={300}

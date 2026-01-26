@@ -51,8 +51,12 @@ const Btn: React.FC<BtnProps> = ({
     </motion.button>
   );
 
+  // Extract text from title for aria-label if it's a string
+  const titleText = typeof title === 'string' ? title : 'Button';
+  const ariaLabel = link ? `${titleText} - Opens in new tab` : titleText;
+
   return link ? (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <a href={link} target="_blank" rel="noopener noreferrer" aria-label={ariaLabel}>
       {content}
     </a>
   ) : (

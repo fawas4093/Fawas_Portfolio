@@ -126,7 +126,7 @@ const Skills = () => {
               type="primary"
               titleStyle="font-medium"
               subTitleStyle="text-xl "
-              link="https://www.linkedin.com/in/peyush-nuwal/"
+              link="https://www.linkedin.com/in/fawas-a-shemeer/"
             />
           </div>
           <div className="skill-btn">
@@ -136,7 +136,7 @@ const Skills = () => {
               type="primary"
               titleStyle="font-medium "
               subTitleStyle="text-xl "
-              link="https://www.x.com/Nuwal_Peyush"
+              link="https://www.x.com/Shemeer_Fawaz"
             />{" "}
           </div>
         </div>

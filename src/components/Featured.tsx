@@ -72,7 +72,7 @@ const handleEnter = () => {
           <h1 className="truncate max-w-[60%]">{title}</h1>
           <h1 className="whitespace-nowrap">{type}</h1>
         </div>
-        <a href={url} target="_blank" rel="noopener noreferrer">
+        <a href={url} target="_blank" rel="noopener noreferrer" aria-label={`View ${title} project - Opens in new tab`}>
           <div
             className={`w-full flex justify-between items-center h-[80px] p-2 cursor-pointer uppercase   bg-primary text-background px-4 lg:px-10 border-b-2 border-b-primary  `}
           >

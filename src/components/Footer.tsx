@@ -108,37 +108,43 @@ const Footer = () => {
               <h2 className="footer-h1-heading text-base lg:text-lg font-medium text-background/80 overflow-hidden">
                 <span className="block"> Email</span>
               </h2>
-              <motion.h1
-                whileHover="hover"
+              <a
+                href="mailto:fawas4093@gmail.com"
+                aria-label="Send email to fawas4093@gmail.com"
                 className="links border-b border-b-background/60 pb-1 mt-1 flex justify-between items-center text-lg lg:text-xl font-bold overflow-hidden cursor-pointer "
               >
-                <motion.span className="block">
-                  piyushnawal19@gmail.com
-                </motion.span>
-
-                <span className="relative text-xl overflow-hidden">
-                  <motion.span
-                    initial={{ y: "0%", x: "0%", rotate: -45 }}
-                    variants={{ hover: { y: "-120%", x: "120%", rotate: -45 } }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="block overflow-hidden"
-                  >
-                    <FaArrowRight />
-                  </motion.span>{" "}
-                  <motion.span
-                    initial={{ y: "120%", x: "-120%", rotate: -45 }}
-                    variants={{ hover: { y: "0%", x: "0%", rotate: -45 } }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="absolute top-0 left-0 leading-0 block -rotate-45 overflow-hidden"
-                  >
-                    <FaArrowRight />
+                <motion.h1
+                  whileHover="hover"
+                  className="flex justify-between items-center w-full"
+                >
+                  <motion.span className="block">
+                    fawas4093@gmail.com
                   </motion.span>
-                </span>
-              </motion.h1>
+
+                  <span className="relative text-xl overflow-hidden">
+                    <motion.span
+                      initial={{ y: "0%", x: "0%", rotate: -45 }}
+                      variants={{ hover: { y: "-120%", x: "120%", rotate: -45 } }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      className="block overflow-hidden"
+                    >
+                      <FaArrowRight />
+                    </motion.span>{" "}
+                    <motion.span
+                      initial={{ y: "120%", x: "-120%", rotate: -45 }}
+                      variants={{ hover: { y: "0%", x: "0%", rotate: -45 } }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      className="absolute top-0 left-0 leading-0 block -rotate-45 overflow-hidden"
+                    >
+                      <FaArrowRight />
+                    </motion.span>
+                  </span>
+                </motion.h1>
+              </a>
             </div>
             <p className=" links text-sm text-background/70 mt-4 overflow-hidden">
               <span className="block">
-                Currently open for internship opportunities — let&apos;s build
+                Currently open for job opportunities — let&apos;s build
                 something impactful.
               </span>
             </p>
@@ -158,6 +164,7 @@ const Footer = () => {
                   key={idx}
                   name={social.name}
                   link={social.url}
+                  type="url"
                   className="links"
                 />
               ))}

@@ -187,11 +187,11 @@ const Nav = forwardRef<HTMLDivElement, NavProps>(
             <div className="w-full lg:w-1/2  h-1/2 lg:h-full   flex items-center justify-start  pl-[5%] ">
               <div ref={videoRef} className=" w-[50%] h-[50%]  overflow-hidden">
                 <video
-                  src="https://raw.githubusercontent.com/peyush-nuwal/portfolio/master/public/ODETARI.mp4
-"
+                  src="/ODETARI.mp4"
                   autoPlay
                   muted
                   loop
+                  playsInline
                   className="w-full h-full object-center  shrink-0 object-cover"
                 ></video>
               </div>

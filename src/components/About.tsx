@@ -10,9 +10,9 @@ const About = () => {
 
   const maskRef = useRef<HTMLDivElement>(null);
 
- const maskText = `Hey! I'm Peyush, a web enthusiast on a mission to make every website I build faster, smoother, and more fun. I love experimenting with new tech, and when I'm not coding, you can catch me learning new tricks or catching up on the latest trends.`;
+ const maskText = `Hey! I'm Fawaz, a web enthusiast on a mission to make every website I build faster, smoother, and more fun. I love experimenting with new tech, and when I'm not coding, you can catch me learning new tricks or catching up on the latest trends.`;
 
- const underText = `Hey there! I'm Peyush, a self-proclaimed web wizard on a mission to make the internet a better place—one dynamic website at a time. When I'm not coding, you can find me binge-watching tech tutorials or battling the bugs that come my way.`;
+ const underText = `Hey there! I'm Fawaz, a self-proclaimed web wizard on a mission to make the internet a better place—one dynamic website at a time. When I'm not coding, you can find me binge-watching tech tutorials or battling the bugs that come my way.`;
 
 
   useGSAP(() => {

@@ -6,18 +6,14 @@ interface SocialLink {
 export const social: SocialLink[] = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/peyush-nuwal/",
-  },
-  {
-    name: "Twitter",
-    url: "https://x.com/Nuwal_Peyush",
+    url: "https://www.linkedin.com/in/fawas-a-shemeer/",
   },
   {
     name: "GitHub",
-    url: "https://github.com/peyush-nuwal",
+    url: "https://github.com/fawas4093",
   },
   {
-    name: "Figma",
-    url: "https://www.figma.com/@peyushnuwal",
+    name: "Instagram",
+    url: "https://www.instagram.com/faw.zzz__?igsh=ODVla2hpcTVieTYy",
   },
 ];
