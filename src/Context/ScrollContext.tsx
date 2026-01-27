@@ -39,9 +39,7 @@ export const ScrollProvider = ({ children }: { children: React.ReactNode }) => {
   const scrollToSection = (id: string) => {
     const target = document.getElementById(id);
     if (target && lenis) {
-    
       lenis.scrollTo(target, { offset:50 });
-      console.log(target.getBoundingClientRect(), lenis); 
     }
   };
 

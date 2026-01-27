@@ -34,12 +34,12 @@ const Cursor: React.FC<CursorProps> = ({ stickyElementRef }) => {
     y: useSpring(mouse.y, smoothOptions),
   };
 
-  const rotate = (distance: { x: number; y: number }) => {
+  const rotate = useCallback((distance: { x: number; y: number }) => {
     const angle = Math.atan2(distance.y, distance.x);
     if (cursor.current) {
       animate(cursor.current, { rotate: `${angle}rad` }, { duration: 0 });
     }
-  };
+  }, []);
 
   const manageMouseMove = useCallback((e: MouseEvent) => {
     const { clientX, clientY } = e;
@@ -68,7 +68,9 @@ const Cursor: React.FC<CursorProps> = ({ stickyElementRef }) => {
       mouse.x.set(clientX - cursorSize / 2);
       mouse.y.set(clientY - cursorSize / 2);
     }
-  }, [isHovered, cursorSize, stickyElementRef]);
+    // mouse.x, mouse.y, scale.x, scale.y are stable motion values from framer-motion
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isHovered, cursorSize, stickyElementRef, rotate]);
 
   const manageMouseOver = useCallback(() => {
     setIsHovered(true);
